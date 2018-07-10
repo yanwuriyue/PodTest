@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PodTest"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "pod 测试"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   pod 测试
+                   pod 001测试
                    DESC
 
   s.homepage     = "https://github.com/yanwuriyue/PodTest"
@@ -91,10 +91,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "PodTest/*.{h,m}"
-  #s.exclude_files = "Classes/Exclude"
+    s.source_files  = "PodTest/*.{h,m}"
+  # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "PodTest/TestArray.h"
+    s.public_header_files = "PodTest/TestArray.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
